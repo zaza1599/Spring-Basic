@@ -16,7 +16,7 @@ public class YoilTellerMVC2 {
 		return "yoilError";
 	}
 	
-    @RequestMapping("/getYoilMVC") // http://localhost/ch2/getYoilMVC
+    @RequestMapping("/getYoilMVC2") // http://localhost/ch2/getYoilMVC2
     public String main(@RequestParam(required=true)int year, 
     		@RequestParam(required=true)int month,
     		@RequestParam(required=true)int day, Model model) {
