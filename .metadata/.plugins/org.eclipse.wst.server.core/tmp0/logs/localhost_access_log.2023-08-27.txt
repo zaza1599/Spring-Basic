@@ -1,0 +1,4 @@
+127.0.0.1 - - [27/Aug/2023:17:14:28 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:17:14:28 +0900] "GET /ch2/ HTTP/1.1" 404 815
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:17:14:29 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [27/Aug/2023:17:20:19 +0900] "GET /ch2/Several%20ports%20(8005,%208080)%20required%20by%20Tomcat%20v9.0%20Server%20at%20localhost%20are%20already%20in%20use.%20The%20server%20may%20already%20be%20running%20in%20another%20process,%20or%20a%20system%20process%20may%20be%20using%20the%20port.%20To%20start%20this%20server%20you%20will%20need%20to%20stop%20the%20other%20process%20or%20change%20the%20port%20number(s). HTTP/1.1" 404 1191
