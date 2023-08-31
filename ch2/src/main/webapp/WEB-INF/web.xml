@@ -36,6 +36,7 @@
 	
 	<!-- 한글 깨짐 방지를 위한 Filter 추가 -->
 	<!-- 별도의 filter 클래스를 만들지 않고 스프링에서 제공하는 filter를 사용 -->
+	<!-- 인코딩된 코드들을 다시 디코딩 해주는 역할임!! -->
 	<filter>
 		<filter-name>encodingFilter</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
