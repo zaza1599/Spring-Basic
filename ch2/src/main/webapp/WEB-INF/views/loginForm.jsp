@@ -64,11 +64,11 @@
 		<i class="fa fa-exclamation-circle"> ${URLDecoder.decode(param.msg)}</i>            
 	    </c:if>        
 	</div>
-        <input type="text" name="id" placeholder="이메일 입력" autofocus>
+        <input type="text" name="id" placeholder="이메일 입력" autofocus value="${cookie.id.value}" }">
         <input type="password" name="pwd" placeholder="비밀번호">
         <button>로그인</button>
         <div>
-            <label><input type="checkbox" name="rememberId"> 아이디 기억</label> |
+            <label><input type="checkbox" name="rememberId" value=on ${empty cookie.id.value ? "":"checked" }> 아이디 기억</label> |
             <a href="">비밀번호 찾기</a> |
             <a href="">회원가입</a>
         </div>
@@ -79,7 +79,7 @@
                  if(frm.id.value.length==0) {
                      setMessage('id를 입력해주세요.', frm.id);
                      return false;
-                 }
+                 }9
      
                  if(frm.pwd.value.length==0) {
                      setMessage('password를 입력해주세요.', frm.pwd);
