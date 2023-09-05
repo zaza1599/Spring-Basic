@@ -7,8 +7,6 @@ C:\spring-basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2044217728
 \comm\src\main\java
 C:\spring-basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3291738157.index
 \Giboo\src\main\java
-C:\spring-basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3138042574.index
-\ch2\src\main\java
 C:\spring-basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3668877171.index
 \Giboo\src\main\java
 C:\spring-basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2993730385.index
