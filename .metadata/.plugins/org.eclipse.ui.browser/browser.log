@@ -1,0 +1,11 @@
+
+9월 04, 2023 19:24:57.394 NEW SESSION
+9월 04, 2023 19:24:57.394 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 04, 2023 19:25:55.561 [6328:15284:0904/192555.560:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 04, 2023 22:25:58.34 [6328:15284:0904/222558.033:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 05, 2023 18:31:18.302 [6328:15284:0905/183118.301:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 05, 2023 18:31:18.304 [6328:15264:0905/183118.304:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 05, 2023 18:34:35.595 [6328:6072:0905/183435.594:ERROR:device_event_log_impl.cc(222)] [18:34:35.594] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+9월 05, 2023 19:20:48.442 [6328:15284:0905/192048.441:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 05, 2023 20:24:16.417 [6328:15284:0905/202416.417:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 05, 2023 20:26:19.397 [6328:6072:0905/202619.396:ERROR:device_event_log_impl.cc(222)] [20:26:19.396] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
