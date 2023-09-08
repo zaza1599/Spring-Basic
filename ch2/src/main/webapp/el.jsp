@@ -20,7 +20,7 @@ name=<%=request.getAttribute("name")%> <br>
 name=${requestScope.name} <br>
 name=${name} <br>
 id=<%=request.getParameter("id")%> <br>
-id=${pageContext.request.getParameter("id")} <br>
+<!--  id=${pageContext.request.getParameter("id")} <br> -->
 id=${param.id} <br>
 "1"+1 = ${"1"+1} <br>
 "1"+="1" = ${"1"+="1"} <br>
@@ -41,3 +41,4 @@ name ne "남궁성"=${name ne "남궁성"} <br>
 name.equals("남궁성")=${name.equals("남궁성")} <br>   
 </body>
 </html>
+
